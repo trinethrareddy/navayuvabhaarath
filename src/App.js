@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,  { Component } from 'react';
+import logo from './NYBCT.jpg';
 import './App.css';
+import { connect } from 'react-redux';
+import { simpleAction } from './actions/simpleAction';
+class App extends Component {
+  /**
+   * @memberof App
+   * @summary handles button click 
+   */
+  simpleAction = (event) => {
+    this.props.simpleAction();
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to Nava Yuva Bharath</h1>
+        </header>
+        <pre>
+          {
+            JSON.stringify(this.props)
+          }
+        </pre>
+        <button onClick={this.simpleAction}>Test redux action</button>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
-export default App;
+const mapStateToProps = state => ({
+  ...state
+ })
+ const mapDispatchToProps = dispatch => ({
+  simpleAction: () => dispatch(simpleAction())
+ })
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
