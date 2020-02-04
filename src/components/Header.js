@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import logo from '../assets/images/header-logo2.png';
-import { BrowserRouter as Router, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 class HeaderComponent extends Component {
   render() {
-    return (<nav className="flex items-center justify-between flex-wrap secondary-bg-color px-6 shadow sticky top-0 py-4 md:py-0">
+    return (<nav className="flex z-10 items-center justify-between flex-wrap secondary-bg-color px-6 shadow sticky top-0 py-4 md:py-0">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <img src={logo} alt="Logo" className="w-full h-20" />
       </div>
@@ -18,7 +18,7 @@ class HeaderComponent extends Component {
             <Link to="/home" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Home</Link>
             <Link to="/about-us" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">About Us</Link>
             <Link to="/gallery" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Gallery</Link>
-            <Link to="/media" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Media</Link>
+            <Link to="/media" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Social Media</Link>
             <Link to="/contact" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Contact Us</Link>
           </Router>
         </div>

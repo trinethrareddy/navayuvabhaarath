@@ -5,37 +5,35 @@ import banner2 from '../assets/images/banner/banner2.jpg';
 import banner3 from '../assets/images/banner/banner3.jpg';
 import banner4 from '../assets/images/banner/banner4.jpg';
 import banner5 from '../assets/images/banner/banner5.jpg';
-class BannerComponent extends Component {
-    render() {
+
+class GalleryComponent extends Component{
+    render(){
         const params = {
+            slidesPerView: 3,
+            spaceBetween: 30,
             loop:true,
-            centeredSlides: true,
-            autoplay: {
-              delay: 2500,
-              disableOnInteraction: false
-            },
             pagination: {
               el: '.swiper-pagination',
-              clickable: true
-            },
-            spaceBetween: 0
-        }
-        return (
-            <div className="banner-component" style={{'height' : '90vh', overflow:'hidden'}}>
-                <Swiper {...params}>
-                    <div style={{'height' : '90vh', overflow:'hidden'}}>
+              clickable: true,
+            }
+          }
+        return(
+            <div className="gallery bg-gray-200 p-10">
+                <h1 className="py-2 primary-color bold text-2xl"> Gallery</h1>
+               <Swiper {...params}>
+                    <div >
                         <img src={banner1} alt="banner one" className="banner-image" />
                     </div>
-                    <div style={{'height' : '90vh', overflow:'hidden'}}>
+                    <div >
                         <img src={banner2} alt="banner one" className="banner-image" />
                     </div>
-                    <div style={{'height' : '90vh', overflow:'hidden'}}>
+                    <div >
                         <img src={banner3} alt="banner one" className="banner-image" />
                     </div>
-                    <div style={{'height' : '90vh', overflow:'hidden'}}>
+                    <div >
                         <img src={banner4} alt="banner one" className="banner-image" />
                     </div>
-                    <div style={{'height' : '90vh', overflow:'hidden'}}>
+                    <div >
                         <img src={banner5} alt="banner one" className="banner-image" />
                     </div>
                 </Swiper>
@@ -43,4 +41,4 @@ class BannerComponent extends Component {
         )
     }
 }
-export default BannerComponent;
+export default GalleryComponent;

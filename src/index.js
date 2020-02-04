@@ -7,7 +7,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import 'swiper/css/swiper.css'
-import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import configureStore from './store';
 // Components 
 import HeaderComponent from './components/Header';
@@ -16,6 +16,7 @@ import FooterComponent from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import GenericNotFound from './pages/PageNotFound';
+import SocialMedia from './pages/SocialMedia';
 
 const routing = (
     <Provider store={configureStore()}>
@@ -25,8 +26,10 @@ const routing = (
                 <Route exact path="/" component={HomePage} />
                 <Route path="/home" component={HomePage} />
                 <Route path="/about-us" component={AboutPage} />
+                <Route path="/media" component={SocialMedia} />
                 {/* this GenericNotFound path should be at the bottom */}
                 <Route path='*' exact={true} component={GenericNotFound} />
+                
             </Switch>
         </Router>
         <FooterComponent />
