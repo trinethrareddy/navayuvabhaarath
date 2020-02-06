@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d63af9c4.chunk.css",
+    "main.js": "/static/js/main.e9d187ec.chunk.js",
+    "main.js.map": "/static/js/main.e9d187ec.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.02e05f23.js",
+    "runtime-main.js.map": "/static/js/runtime-main.02e05f23.js.map",
+    "static/css/2.ff3a3742.chunk.css": "/static/css/2.ff3a3742.chunk.css",
+    "static/js/2.4c319c5b.chunk.js": "/static/js/2.4c319c5b.chunk.js",
+    "static/js/2.4c319c5b.chunk.js.map": "/static/js/2.4c319c5b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.01f9920c299be2404776bb6591f9efd9.js": "/precache-manifest.01f9920c299be2404776bb6591f9efd9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ff3a3742.chunk.css.map": "/static/css/2.ff3a3742.chunk.css.map",
+    "static/css/main.d63af9c4.chunk.css.map": "/static/css/main.d63af9c4.chunk.css.map",
+    "static/js/2.4c319c5b.chunk.js.LICENSE.txt": "/static/js/2.4c319c5b.chunk.js.LICENSE.txt",
+    "static/media/NYBCT.jpg": "/static/media/NYBCT.8e337349.jpg",
+    "static/media/banner1.jpg": "/static/media/banner1.5e8ef151.jpg",
+    "static/media/banner2.jpg": "/static/media/banner2.ac7d0d51.jpg",
+    "static/media/banner3.jpg": "/static/media/banner3.0d87ae37.jpg",
+    "static/media/banner4.jpg": "/static/media/banner4.9cd87d51.jpg",
+    "static/media/banner5.jpg": "/static/media/banner5.2c4042c1.jpg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f6121be5.woff2",
+    "static/media/header-logo2.png": "/static/media/header-logo2.61f89c5e.png",
+    "static/media/not-found.svg": "/static/media/not-found.94102f25.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02e05f23.js",
+    "static/css/2.ff3a3742.chunk.css",
+    "static/js/2.4c319c5b.chunk.js",
+    "static/css/main.d63af9c4.chunk.css",
+    "static/js/main.e9d187ec.chunk.js"
+  ]
+}
