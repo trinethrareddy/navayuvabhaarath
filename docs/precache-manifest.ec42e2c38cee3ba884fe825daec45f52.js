@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "380a1d5fcfd0771c3bd95ec4af1019bf",
+    "revision": "5df6add758c24fb9b24e0192c899dd1b",
     "url": "/index.html"
   },
   {
-    "revision": "f6d679123c9c71857519",
+    "revision": "9c9df0b9fd75cb5353aa",
     "url": "/static/css/2.ff3a3742.chunk.css"
   },
   {
-    "revision": "c4982958017b3372aec4",
-    "url": "/static/css/main.d63af9c4.chunk.css"
+    "revision": "afe5c6632f452fd364a9",
+    "url": "/static/css/main.96900c5c.chunk.css"
   },
   {
-    "revision": "f6d679123c9c71857519",
-    "url": "/static/js/2.4c319c5b.chunk.js"
+    "revision": "9c9df0b9fd75cb5353aa",
+    "url": "/static/js/2.b84c0962.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/static/js/2.4c319c5b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b84c0962.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4982958017b3372aec4",
-    "url": "/static/js/main.e9d187ec.chunk.js"
+    "revision": "afe5c6632f452fd364a9",
+    "url": "/static/js/main.ae1a0417.chunk.js"
   },
   {
     "revision": "bb2a8a5f21b1c04f19cd",
@@ -112,11 +112,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.f6121be5.woff2"
   },
   {
+    "revision": "fb4576e03e0912f72ebfbccf497536f3",
+    "url": "/static/media/good_team.fb4576e0.svg"
+  },
+  {
     "revision": "61f89c5eaae7d2d14a3af9035b19bfa4",
     "url": "/static/media/header-logo2.61f89c5e.png"
   },
   {
+    "revision": "9e86f813e6b1f19aab2dd13bb1babfa3",
+    "url": "/static/media/image2.9e86f813.jpg"
+  },
+  {
+    "revision": "f27095cdb66ccccabacae842f105e430",
+    "url": "/static/media/mission.f27095cd.svg"
+  },
+  {
     "revision": "94102f257dcfcada079d2dd6a68d819a",
     "url": "/static/media/not-found.94102f25.svg"
+  },
+  {
+    "revision": "74ae14f7f9675e54989f0d272f16c7f0",
+    "url": "/static/media/subscribe.74ae14f7.jpg"
+  },
+  {
+    "revision": "0b5d5593ad2aa07b8ad0fb8a26fe86f2",
+    "url": "/static/media/team_spirit.0b5d5593.svg"
   }
 ]);
