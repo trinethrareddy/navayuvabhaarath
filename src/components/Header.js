@@ -3,7 +3,7 @@ import logo from '../assets/images/header-logo2.png';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 class HeaderComponent extends Component {
   render() {
-    return (<nav className="flex z-10 items-center justify-between flex-wrap secondary-bg-color px-6 shadow sticky top-0 py-4 md:py-0">
+    return (<nav className="flex z-10 items-center justify-between flex-wrap secondary-bg-color px-6 shadow fixed top-0 w-full py-4 md:py-0">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <img src={logo} alt="Logo" className="w-full h-20" />
       </div>

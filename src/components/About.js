@@ -1,26 +1,46 @@
 import React, { Component } from 'react';
-import banner1 from '../assets/images/banner/banner1.jpg';
+import Title from './Title';
+import missionIcon from '../assets/images/mission.svg';
+import ourTeamIcon from '../assets/images/team_spirit.svg'
+import historyIcon from '../assets/images/good_team.svg'
 class AboutComponent extends Component {
     render() {
         return (
             <div className="about p-10">
-                 <h1 className="py-2 primary-color bold text-2xl"> About</h1>
-                <div class="max-w-sm w-full lg:max-w-full lg:flex">
-                    <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{"background-image": `url(${banner1})`}} title="Woman holding a mug">
+                <Title titleName="About Us"></Title>
+                <div className="w-full md:flex">
+                    <div className="w-full md:w-1/3 text-center mb-10 md:px-12">
+                        <div className="flex justify-center my-10">
+                            <img src={ourTeamIcon} alt="banner one" className="banner-image w-24" />
+                        </div>
+                        <div className="font-bold text-xl mb-2">
+                            OUR TEAM
+                        </div>
+                        <p className="text-gray-700 text-base">
+                            Our amazing team of regulars and part-time volunteers are committed to helping others. We take our convictions and turn them into action. Think you would be a good fit? Get in touch for more information!
+                        </p>
                     </div>
-                    <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                        <div class="mb-8">
-                            <div class="text-gray-900 font-bold text-xl mb-2">Nava Yuva Bharath Charitable Trust</div>
-                            <p class="text-gray-700 text-base">India is still a developing country, one burdened with enormous inequities. Its our duty to play whatever role we can, whichever way we can, to diminish those disparities. We are not in it for propaganda are visibility . Rather we are in it for the satisfaction gained from knowing that we have achieved something meaningful, that we have put our shoulder to the wheel of nation building, that we are serving the country that provides us sustenance</p>
-                            <p class="text-gray-700 text-base mt-8">Smt Vani Gaddam alias Mounika Reddy having born at Velikallu village in Nellore district of Andhra Pradesh, had a passion for community work since young age . Parents are late Smt Jayasree & Sri Chelikam Venkata Reddy infused values in her life. Accordingly with the blessings of elders and wishes of well-wishers.... inspired by SWAMY VIVEKANANDA , MAHATHMA GANDHI, MOTHER THERESA. The mission is on motivating, inspiring, encouraging ,involving , innovating while serving the country men</p>
+                    <div className="w-full md:w-1/3 text-center mb-10 md:px-12">
+                        <div className="flex justify-center my-10">
+                            <img src={historyIcon} alt="banner one" className="banner-image w-24" />
                         </div>
-                        <div class="flex items-center">
-                            <img class="w-10 h-10 rounded-full mr-4" src={banner1} alt="Avatar of Jonathan Reinink" />
-                            <div class="text-sm">
-                                <p class="text-gray-900 leading-none">Chandra Mohan Reddy</p>
-                                <p class="text-gray-600">Aug 18</p>
-                            </div>
+                        <div className="font-bold text-xl mb-2">
+                            OUR HISTORY
                         </div>
+                        <p className="text-gray-700 text-base">
+                            Seeing a need for energetic, nonprofit work in this area, we formed our organization to provide sensible solutions. We've consistently grown since then, all thanks to the helping hands of this amazing community!
+                        </p>
+                    </div>
+                    <div className="w-full md:w-1/3 text-center mb-10 md:px-12">
+                        <div className="flex justify-center my-10">
+                            <img src={missionIcon} alt="banner one" className="banner-image w-24" />
+                        </div>
+                        <div className="font-bold text-xl mb-2">
+                            OUR MISSION
+                        </div>
+                        <p className="text-gray-700 text-base">
+                            We focus on making the maximum positive effort for our community. Our members and volunteers provide the momentum that helps us affect change. Using data driven models, we provide solutions that make a long-lasting difference.
+                        </p>
                     </div>
                 </div>
             </div>
