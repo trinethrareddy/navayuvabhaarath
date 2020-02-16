@@ -15,11 +15,17 @@ class HeaderComponent extends Component {
       <div className="w-full block  lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow mr-10 text-base">
           <Router>
-            <Link to="/home" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Home</Link>
-            <Link to="/about-us" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">About Us</Link>
+            <a href="/home" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Home</a>            
+            <a href="/about-us" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">About Us</a>
+            <a href="/gallery" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Gallery</a>
+            <a href="/media" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Social Media</a>
+            <a href="/contact" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Contact Us</a>
+
+          {/* <Link to="/home" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Home</Link> */}
+            {/* <Link to="/about-us" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">About Us</Link>
             <Link to="/gallery" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Gallery</Link>
             <Link to="/media" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Social Media</Link>
-            <Link to="/contact" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Contact Us</Link>
+            <Link to="/contact" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Contact Us</Link> */}
           </Router>
         </div>
         <div>

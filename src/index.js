@@ -7,7 +7,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import 'swiper/css/swiper.css'
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 import configureStore from './store';
 // Components 
 import HeaderComponent from './components/Header';
@@ -23,7 +23,7 @@ const routing = (
     <Provider store={configureStore()}>
         <HeaderComponent />
         <Router>
-            <Switch>                
+            <Switch>
                 <Route exact path="/" component={HomePage} />
                 <Route path="/home" component={HomePage} />
                 <Route path="/about-us" component={AboutPage} />
