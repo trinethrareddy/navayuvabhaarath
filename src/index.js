@@ -17,7 +17,8 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import GenericNotFound from './pages/PageNotFound';
 import SocialMedia from './pages/SocialMedia';
-
+import GaleryPage from './pages/GalleryPage';
+import ContactUs from './pages/ContactUs';
 const routing = (
     <Provider store={configureStore()}>
         <HeaderComponent />
@@ -26,7 +27,10 @@ const routing = (
                 <Route exact path="/" component={HomePage} />
                 <Route path="/home" component={HomePage} />
                 <Route path="/about-us" component={AboutPage} />
+                <Route path="/gallery" component = {GaleryPage}/>
                 <Route path="/media" component={SocialMedia} />
+                <Route path="/contact" component={ContactUs} />
+                
                 {/* this GenericNotFound path should be at the bottom */}
                 <Route path='*' exact={true} component={GenericNotFound} />
                 
