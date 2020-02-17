@@ -17,3 +17,71 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.fancy-btn {
+    /* height: 40px; */
+    display: inline-block;
+    /* width: 200px; */
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #cecece;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    /* line-height: 36px; */
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    outline: none;
+}
+.fancy-btn:hover::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    background: linear-gradient(65deg,#5BB12F,transparent,#5BB12F);
+    background-size: 100%;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    z-index: 1;
+    background-size: 200%;
+    -webkit-animation: rotateGradient 5s linear infinite;
+    animation: rotateGradient 5s linear infinite;
+}
+.fancy-btn:hover::before{
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    background: linear-gradient(65deg,#5BB12F,transparent,#5BB12F);
+    background-size: 100%;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    z-index: 1;
+    background-size: 200%;
+    -webkit-animation: rotateGradient 5s linear infinite;
+    animation: rotateGradient 5s linear infinite;
+}
+
+@-webkit-keyframes rotateGradient{
+    0%{
+        background-position:0 0
+    }
+    50%{
+        background-position:200% 0
+    }
+    to{
+        background-position:0 0
+    }
+}
+@keyframes rotateGradient{
+    0%{
+        background-position:0 0
+    }
+    50%{
+        background-position:200% 0
+    }
+    to{
+        background-position:0 0
+    }
+}

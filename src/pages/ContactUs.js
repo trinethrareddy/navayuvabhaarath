@@ -22,7 +22,8 @@ class ContactUs extends Component {
                     </p>
                     </div>
                     <button className="bg-gray-600 hover:bg-gray-900 text-white  py-2 px-4 rounded">
-                    <img src={whatsappIcon} className="inline mr-2 h-8"/>Message us on Whatsapp </button>
+                        <a href="https://wa.me/919000573185">
+                    <img src={whatsappIcon} className="inline mr-2 h-8"/>Message us on Whatsapp </a></button>
                     <div className="font-bold mt-4 mb-2">
                         
                         NAVAYUVA BHARATH</div>
