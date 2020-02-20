@@ -13,6 +13,7 @@ import configureStore from './store';
 // Components 
 import HeaderComponent from './components/Header';
 import FooterComponent from './components/Footer';
+import GotoTop from './components/GotoTop';
 // Page Components 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -49,6 +50,7 @@ const routing = (
             </Switch>
         </Router>
         <FooterComponent />
+        <GotoTop/>
     </Provider>
 )
 
