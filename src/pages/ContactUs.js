@@ -6,11 +6,13 @@ import whatsappIcon from '../assets/images/whatsapp.svg';
 
 import GoogleMap from '../components/GoogleMap';
 import SubscribeComponent from '../components/Subscribe';
+import ScrollAnimation from 'react-animate-on-scroll';
 class ContactUs extends Component {
     render() {
         return (
             <React.Fragment>
                 <SmallBannerComponent bgImage={contactUsImg} bannerText="CONTACT US" />
+                <ScrollAnimation animateIn="fadeInUp">
                 <div className="text-center mb-8">
                     <div className="font-bold text-center mt-8 text-xl">FIND MORE WAYS TO HELP!</div>
                     <div className="mx-48 my-12 text-gray-600">
@@ -30,6 +32,7 @@ class ContactUs extends Component {
                     <p className="text-gray-600 mb-2">Rudrampet Bypass Anantapur- 515004</p>
                     <p className="text-orange-700 mb-2">090005 73185</p>                    
                 </div>
+                </ScrollAnimation>
                 <div className="mb-12">
                     <SubscribeComponent/>
                 </div>

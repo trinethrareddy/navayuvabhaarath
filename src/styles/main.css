@@ -10,7 +10,9 @@
 .secondary-bg-color {
     background-color: #222;
 }
-
+.active {
+    color: #fff !important;
+}
 /* Banner css */
 .banner__heading {
     top: 50%;

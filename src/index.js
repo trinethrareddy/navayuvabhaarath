@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './styles/animated.css';
 import './styles/tailwind.css';
 import './styles/main.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -21,19 +22,30 @@ import GaleryPage from './pages/GalleryPage';
 import ContactUs from './pages/ContactUs';
 const routing = (
     <Provider store={configureStore()}>
-        <HeaderComponent />
         <Router>
+        <HeaderComponent />
             <Switch>
-                <Route exact path="/" component={HomePage} />
-                <Route path="/home" component={HomePage} />
-                <Route path="/about-us" component={AboutPage} />
-                <Route path="/gallery" component = {GaleryPage}/>
-                <Route path="/media" component={SocialMedia} />
-                <Route path="/contact" component={ContactUs} />
-                
-                {/* this GenericNotFound path should be at the bottom */}
-                <Route path='*' exact={true} component={GenericNotFound} />
-                
+                <Route path="/home">
+                    <HomePage />
+                </Route>
+                <Route path="/about-us">
+                    <AboutPage />
+                </Route>
+                <Route path="/gallery">
+                    <GaleryPage />
+                </Route>
+                <Route path="/media">
+                    <SocialMedia />
+                </Route>
+                <Route path="/contact">
+                    <ContactUs />
+                </Route>
+                <Route path="/">
+                    <HomePage />
+                </Route>
+                <Route path="*">
+                    <GenericNotFound />
+                </Route>
             </Switch>
         </Router>
         <FooterComponent />

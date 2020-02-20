@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import logo from '../assets/images/header-logo2.png';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, NavLink } from 'react-router-dom';
 class HeaderComponent extends Component {
   render() {
     return (<nav className="flex z-10 items-center justify-between flex-wrap secondary-bg-color px-6 shadow sticky top-0 py-4 md:py-0">
@@ -13,20 +13,14 @@ class HeaderComponent extends Component {
         </button>
       </div>
       <div className="w-full block  lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm lg:flex-grow mr-10 text-base">
-          <Router>
-            <a href="/home" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Home</a>            
-            <a href="/about-us" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">About Us</a>
-            <a href="/gallery" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Gallery</a>
-            <a href="/media" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Social Media</a>
-            <a href="/contact" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Contact Us</a>
-
-          {/* <Link to="/home" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Home</Link> */}
-            {/* <Link to="/about-us" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">About Us</Link>
-            <Link to="/gallery" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Gallery</Link>
-            <Link to="/media" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Social Media</Link>
-            <Link to="/contact" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Contact Us</Link> */}
-          </Router>
+        <div className="text-sm lg:flex-grow mr-10 text-base">   
+        {/* <Nav> */}
+          <NavLink to="/home" activeClassName="active" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Home</NavLink>
+            <NavLink to="/about-us" activeClassName="active" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">About Us</NavLink>
+            <NavLink to="/gallery" activeClassName="active" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Gallery</NavLink>
+            <NavLink to="/media" activeClassName="active" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Social Media</NavLink>
+            <NavLink to="/contact" activeClassName="active" className="block mt-4 lg:inline-block lg:mt-0 primary-color hover:text-white mr-4">Contact Us</NavLink>
+            {/* </Nav>        */}
         </div>
         <div>
           <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Donate</a>
