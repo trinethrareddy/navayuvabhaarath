@@ -14,10 +14,16 @@
     color: #fff !important;
 }
 /* Banner css */
-.banner__heading {
+.banner__heading {   
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+    .banner__heading {  
+        width: 100%;
+        margin: 0 10px;
+    }
 }
 .fancy-btn {
     /* height: 40px; */
@@ -102,4 +108,13 @@
 }
 .go-to-top:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.footer{
+    background-image: url(../assets//images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.8);
 }

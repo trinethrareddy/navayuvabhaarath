@@ -29,7 +29,7 @@ class GalleryComponent extends Component {
             }
         }
         return (
-            <div className="gallery bg-gray-200 p-10">
+            <div className="gallery bg-gray-200 p-4 md:p-10">
                 <h1 className="py-2 primary-color bold text-2xl"> Gallery</h1>                
                 <Swiper {...params}>
                     <div >

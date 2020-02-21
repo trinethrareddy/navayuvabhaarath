@@ -11,7 +11,7 @@ class BannerComponent extends Component {
             loop: true,
             centeredSlides: true,
             autoplay: {
-                delay: 4500,
+                delay: 4500000,
                 disableOnInteraction: true
             },
             pagination: {
@@ -25,36 +25,36 @@ class BannerComponent extends Component {
                 <Swiper {...params}>
                     <div className="md:h-screen">
                         <div className="banner__heading absolute text-white ">
-                            <h1 className="text-5xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
-                            <div className="banner-sub-title"> Giving back through life-changing experiences.</div>
+                            <h1 className="text-2xl md:text-4xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
+                            <div className="hidden md:block banner-sub-title"> Giving back through life-changing experiences.</div>
                         </div>
                         <img src={banner1} alt="banner one" className="banner-image" />
                     </div>
                     <div className="md:h-screen">
                         <div className="banner__heading absolute text-white">
-                            <h1 className="text-5xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
-                            <div className="banner-sub-title"> Giving back through life-changing experiences.</div>
+                            <h1 className="text-2xl md:text-4xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
+                            <div className="hidden md:block banner-sub-title"> Giving back through life-changing experiences.</div>
                         </div>
                         <img src={banner2} alt="banner one" className="banner-image" />
                     </div>
                     <div className="md:h-screen">
                         <div className="banner__heading absolute text-white">
-                            <h1 className="text-5xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
-                            <div className="banner-sub-title"> Giving back through life-changing experiences.</div>
+                            <h1 className="text-2xl md:text-4xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
+                            <div className="hidden md:block banner-sub-title"> Giving back through life-changing experiences.</div>
                         </div>
                         <img src={banner3} alt="banner one" className="banner-image" />
                     </div>
                     <div className="md:h-screen">
                         <div className="banner__heading absolute text-white">
-                            <h1 className="text-5xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
-                            <div className="banner-sub-title"> Giving back through life-changing experiences.</div>
+                            <h1 className="text-2xl md:text-4xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
+                            <div className="hidden md:block banner-sub-title"> Giving back through life-changing experiences.</div>
                         </div>
                         <img src={banner4} alt="banner one" className="banner-image" />
                     </div>
                     <div className="md:h-screen">
                         <div className="banner__heading absolute text-white">
-                            <h1 className="text-5xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
-                            <div className="banner-sub-title"> Giving back through life-changing experiences.</div>
+                            <h1 className="text-2xl md:text-4xl">TOGETHER WE CAN. NAVAYUVA BHARATH</h1>
+                            <div className="hidden md:block banner-sub-title"> Giving back through life-changing experiences.</div>
                         </div>
                         <img src={banner5} alt="banner one" className="banner-image" />
                     </div>

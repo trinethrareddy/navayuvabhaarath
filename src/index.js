@@ -21,6 +21,7 @@ import GenericNotFound from './pages/PageNotFound';
 import SocialMedia from './pages/SocialMedia';
 import GaleryPage from './pages/GalleryPage';
 import ContactUs from './pages/ContactUs';
+import DonatePage from './pages/DonatePage';
 const routing = (
     <Provider store={configureStore()}>
         <Router>
@@ -40,6 +41,9 @@ const routing = (
                 </Route>
                 <Route path="/contact">
                     <ContactUs />
+                </Route>
+                <Route path="/donate">
+                    <DonatePage />
                 </Route>
                 <Route path="/">
                     <HomePage />

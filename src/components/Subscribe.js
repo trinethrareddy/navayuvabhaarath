@@ -7,7 +7,7 @@ class SubscribeComponent extends Component {
             <div className="subscribe">
                 <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
                     <div className="bg-fixed bg-no-repeat bg-cover bg-center flex justify-center text-white py-10" style={{ 'backgroundImage': `url(${subscribeImg})` }}>
-                        <div className="text-center p-10 md:p-0">
+                        <div className="text-center p-4 md:p-0">
                             <h3 className="mb-5 text-3xl font-bold"> SUBSCRIBE</h3>
                             <p className="text-xl">Learn more about our upcoming events, fundraisers, and more!</p>
                             <input type="email" className="w-full h-12 rounded-sm mt-5 mb-10 pl-5" placeholder="Enter Email ..." />

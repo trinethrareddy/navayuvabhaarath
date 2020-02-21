@@ -8,7 +8,7 @@ class HelpUsComponent extends Component {
             <div className="help-us mb-20">
                 <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
                     <Title titleName="Help Us" />
-                    <div className="md:flex md:w-4/5 ml-auto mr-auto p-10 md:p-0">
+                    <div className="md:flex md:w-4/5 ml-auto mr-auto p-4 md:p-0">
                         <div className="w-full md:w-1/2">
                             <img src={image2} alt="alt img" className="h-64 ml-auto mr-auto md:mr-10" />
                         </div>

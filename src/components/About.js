@@ -8,7 +8,7 @@ class AboutComponent extends Component {
     render() {
         return (
             <ScrollAnimation animateIn="fadeInUp">
-                <div className="about p-10 animated fadeInUp">
+                <div className="about p-4 md:p-10 animated fadeInUp">
                     <Title titleName="About Us"></Title>
                     <div className="w-full md:flex">
                         <div className="w-full md:w-1/3 text-center mb-10 md:px-12">

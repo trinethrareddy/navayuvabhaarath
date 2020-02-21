@@ -8,7 +8,9 @@ class HomePage extends Component {
   render() {
     return (
       <div className="home-page">
-        <BannerComponent/>
+        <div className="md:h-screen overflow-hidden">
+           <BannerComponent/>
+        </div>
         <AboutComponent/>
         <HelpUsComponent/>
         <SubscribeComponent/>
