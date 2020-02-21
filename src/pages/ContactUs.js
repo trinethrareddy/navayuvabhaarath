@@ -12,7 +12,7 @@ class ContactUs extends Component {
         return (
             <React.Fragment>
                 <SmallBannerComponent bgImage={contactUsImg} bannerText="CONTACT US" />
-                <ScrollAnimation animateIn="fadeInUp">
+                <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
                 <div className="text-center mb-8">
                     <div className="font-bold text-center mt-8 text-xl">FIND MORE WAYS TO HELP!</div>
                     <div className="mx-48 my-12 text-gray-600">

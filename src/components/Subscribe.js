@@ -5,7 +5,7 @@ class SubscribeComponent extends Component {
     render() {
         return (
             <div className="subscribe">
-                <ScrollAnimation animateIn="fadeInUp">
+                <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
                     <div className="bg-fixed bg-no-repeat bg-cover bg-center flex justify-center text-white py-10" style={{ 'backgroundImage': `url(${subscribeImg})` }}>
                         <div className="text-center p-10 md:p-0">
                             <h3 className="mb-5 text-3xl font-bold"> SUBSCRIBE</h3>

@@ -6,7 +6,7 @@ class HelpUsComponent extends Component {
     render() {
         return (
             <div className="help-us mb-20">
-                <ScrollAnimation animateIn="fadeInUp">
+                <ScrollAnimation animateOnce="true" animateIn="fadeInUp">
                     <Title titleName="Help Us" />
                     <div className="md:flex md:w-4/5 ml-auto mr-auto p-10 md:p-0">
                         <div className="w-full md:w-1/2">
