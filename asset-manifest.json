@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/navayuvabhaarath/static/css/main.d3143973.chunk.css",
+    "main.js": "/navayuvabhaarath/static/js/main.d8c9cd83.chunk.js",
+    "main.js.map": "/navayuvabhaarath/static/js/main.d8c9cd83.chunk.js.map",
+    "runtime-main.js": "/navayuvabhaarath/static/js/runtime-main.73d71835.js",
+    "runtime-main.js.map": "/navayuvabhaarath/static/js/runtime-main.73d71835.js.map",
+    "static/css/2.2d7c32b4.chunk.css": "/navayuvabhaarath/static/css/2.2d7c32b4.chunk.css",
+    "static/js/2.8ed10299.chunk.js": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js",
+    "static/js/2.8ed10299.chunk.js.map": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js.map",
+    "index.html": "/navayuvabhaarath/index.html",
+    "precache-manifest.020aac29e67a4ef41b1d494e99184087.js": "/navayuvabhaarath/precache-manifest.020aac29e67a4ef41b1d494e99184087.js",
+    "service-worker.js": "/navayuvabhaarath/service-worker.js",
+    "static/css/2.2d7c32b4.chunk.css.map": "/navayuvabhaarath/static/css/2.2d7c32b4.chunk.css.map",
+    "static/css/main.d3143973.chunk.css.map": "/navayuvabhaarath/static/css/main.d3143973.chunk.css.map",
+    "static/js/2.8ed10299.chunk.js.LICENSE.txt": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js.LICENSE.txt",
+    "static/media/NYBCT.jpg": "/navayuvabhaarath/static/media/NYBCT.8e337349.jpg",
+    "static/media/banner1.jpg": "/navayuvabhaarath/static/media/banner1.489c64ef.jpg",
+    "static/media/banner2.jpg": "/navayuvabhaarath/static/media/banner2.9958a5bb.jpg",
+    "static/media/banner3.jpg": "/navayuvabhaarath/static/media/banner3.dd4c351e.jpg",
+    "static/media/banner4.jpg": "/navayuvabhaarath/static/media/banner4.9cd87d51.jpg",
+    "static/media/banner5.jpg": "/navayuvabhaarath/static/media/banner5.2c4042c1.jpg",
+    "static/media/contactus_hd_bg.png": "/navayuvabhaarath/static/media/contactus_hd_bg.fbef8f98.png",
+    "static/media/all.min.css": "/navayuvabhaarath/static/media/fa-solid-900.f6121be5.woff2",
+    "static/media/main.css": "/navayuvabhaarath/static/media/footer.ae9258ce.jpg",
+    "static/media/good_team.svg": "/navayuvabhaarath/static/media/good_team.fb4576e0.svg",
+    "static/media/header-logo2.png": "/navayuvabhaarath/static/media/header-logo2.61f89c5e.png",
+    "static/media/image2.jpg": "/navayuvabhaarath/static/media/image2.9e86f813.jpg",
+    "static/media/mission.svg": "/navayuvabhaarath/static/media/mission.f27095cd.svg",
+    "static/media/not-found.svg": "/navayuvabhaarath/static/media/not-found.94102f25.svg",
+    "static/media/subscribe.jpg": "/navayuvabhaarath/static/media/subscribe.74ae14f7.jpg",
+    "static/media/team_spirit.svg": "/navayuvabhaarath/static/media/team_spirit.0b5d5593.svg",
+    "static/media/up-arrow.svg": "/navayuvabhaarath/static/media/up-arrow.137ca2b9.svg",
+    "static/media/whatsapp.svg": "/navayuvabhaarath/static/media/whatsapp.2cc4c3e7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73d71835.js",
+    "static/css/2.2d7c32b4.chunk.css",
+    "static/js/2.8ed10299.chunk.js",
+    "static/css/main.d3143973.chunk.css",
+    "static/js/main.d8c9cd83.chunk.js"
+  ]
+}
