@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2f47de386949e726ae4d8690c93cffd",
+    "revision": "3317dc45babbf0177f4566e132d6740f",
     "url": "/navayuvabhaarath/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/navayuvabhaarath/static/css/2.2d7c32b4.chunk.css"
   },
   {
-    "revision": "1686b010ad9b916998a7",
+    "revision": "85e3a2450e2720296771",
     "url": "/navayuvabhaarath/static/css/main.d3143973.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1686b010ad9b916998a7",
-    "url": "/navayuvabhaarath/static/js/main.d8c9cd83.chunk.js"
+    "revision": "85e3a2450e2720296771",
+    "url": "/navayuvabhaarath/static/js/main.ca5d43da.chunk.js"
   },
   {
     "revision": "46323deff93d05436159",

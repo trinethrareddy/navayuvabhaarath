@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/navayuvabhaarath/static/css/main.d3143973.chunk.css",
-    "main.js": "/navayuvabhaarath/static/js/main.d8c9cd83.chunk.js",
-    "main.js.map": "/navayuvabhaarath/static/js/main.d8c9cd83.chunk.js.map",
+    "main.js": "/navayuvabhaarath/static/js/main.ca5d43da.chunk.js",
+    "main.js.map": "/navayuvabhaarath/static/js/main.ca5d43da.chunk.js.map",
     "runtime-main.js": "/navayuvabhaarath/static/js/runtime-main.73d71835.js",
     "runtime-main.js.map": "/navayuvabhaarath/static/js/runtime-main.73d71835.js.map",
     "static/css/2.2d7c32b4.chunk.css": "/navayuvabhaarath/static/css/2.2d7c32b4.chunk.css",
     "static/js/2.8ed10299.chunk.js": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js",
     "static/js/2.8ed10299.chunk.js.map": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js.map",
     "index.html": "/navayuvabhaarath/index.html",
-    "precache-manifest.020aac29e67a4ef41b1d494e99184087.js": "/navayuvabhaarath/precache-manifest.020aac29e67a4ef41b1d494e99184087.js",
+    "precache-manifest.bd75afa63b678ec475c0a5814738eb04.js": "/navayuvabhaarath/precache-manifest.bd75afa63b678ec475c0a5814738eb04.js",
     "service-worker.js": "/navayuvabhaarath/service-worker.js",
     "static/css/2.2d7c32b4.chunk.css.map": "/navayuvabhaarath/static/css/2.2d7c32b4.chunk.css.map",
     "static/css/main.d3143973.chunk.css.map": "/navayuvabhaarath/static/css/main.d3143973.chunk.css.map",
@@ -38,6 +38,6 @@
     "static/css/2.2d7c32b4.chunk.css",
     "static/js/2.8ed10299.chunk.js",
     "static/css/main.d3143973.chunk.css",
-    "static/js/main.d8c9cd83.chunk.js"
+    "static/js/main.ca5d43da.chunk.js"
   ]
 }
