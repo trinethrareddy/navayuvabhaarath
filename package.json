@@ -1,4 +1,5 @@
 {
+  "homepage": "http://trinethrareddy.github.io/navayuvabhaarath",
   "name": "website-builder",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +25,9 @@
     "start": "npm run build:style && react-scripts start",
     "build": "npm run build:style && react-scripts build",
     "test": "npm run build:style && react-scripts test",
-    "eject": "npm run build:style && react-scripts eject"
+    "eject": "npm run build:style && react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +47,7 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "autoprefixer": "^9.7.4",
+    "gh-pages": "^2.2.0",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.1.4"
   }
