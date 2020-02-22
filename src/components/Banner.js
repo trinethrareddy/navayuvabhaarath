@@ -6,6 +6,15 @@ import banner3 from '../assets/images/banner/banner3.jpg';
 import banner4 from '../assets/images/banner/banner4.jpg';
 import banner5 from '../assets/images/banner/banner5.jpg';
 class BannerComponent extends Component {
+    componentDidMount() {
+        fetch('https://trinethra.herokuapp.com/banners')
+        .then(res => res.json())
+        .then((data) => {
+          console.log('API response::', data);
+        })
+        .catch(console.log)
+      }
+
     render() {
         const params = {
             loop: true,
@@ -20,6 +29,7 @@ class BannerComponent extends Component {
             },
             spaceBetween: 0
         }
+      
         return (
             <div className="banner">
                 <Swiper {...params}>
