@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/navayuvabhaarath/static/css/main.d3143973.chunk.css",
-    "main.js": "/navayuvabhaarath/static/js/main.ca5d43da.chunk.js",
-    "main.js.map": "/navayuvabhaarath/static/js/main.ca5d43da.chunk.js.map",
+    "main.js": "/navayuvabhaarath/static/js/main.bb8344bb.chunk.js",
+    "main.js.map": "/navayuvabhaarath/static/js/main.bb8344bb.chunk.js.map",
     "runtime-main.js": "/navayuvabhaarath/static/js/runtime-main.73d71835.js",
     "runtime-main.js.map": "/navayuvabhaarath/static/js/runtime-main.73d71835.js.map",
     "static/css/2.2d7c32b4.chunk.css": "/navayuvabhaarath/static/css/2.2d7c32b4.chunk.css",
-    "static/js/2.8ed10299.chunk.js": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js",
-    "static/js/2.8ed10299.chunk.js.map": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js.map",
+    "static/js/2.443a0b4d.chunk.js": "/navayuvabhaarath/static/js/2.443a0b4d.chunk.js",
+    "static/js/2.443a0b4d.chunk.js.map": "/navayuvabhaarath/static/js/2.443a0b4d.chunk.js.map",
     "index.html": "/navayuvabhaarath/index.html",
-    "precache-manifest.bd75afa63b678ec475c0a5814738eb04.js": "/navayuvabhaarath/precache-manifest.bd75afa63b678ec475c0a5814738eb04.js",
+    "precache-manifest.d7525217a5af0b964e3654439a205e39.js": "/navayuvabhaarath/precache-manifest.d7525217a5af0b964e3654439a205e39.js",
     "service-worker.js": "/navayuvabhaarath/service-worker.js",
     "static/css/2.2d7c32b4.chunk.css.map": "/navayuvabhaarath/static/css/2.2d7c32b4.chunk.css.map",
     "static/css/main.d3143973.chunk.css.map": "/navayuvabhaarath/static/css/main.d3143973.chunk.css.map",
-    "static/js/2.8ed10299.chunk.js.LICENSE.txt": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js.LICENSE.txt",
+    "static/js/2.443a0b4d.chunk.js.LICENSE.txt": "/navayuvabhaarath/static/js/2.443a0b4d.chunk.js.LICENSE.txt",
     "static/media/NYBCT.jpg": "/navayuvabhaarath/static/media/NYBCT.8e337349.jpg",
     "static/media/banner1.jpg": "/navayuvabhaarath/static/media/banner1.489c64ef.jpg",
     "static/media/banner2.jpg": "/navayuvabhaarath/static/media/banner2.9958a5bb.jpg",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.73d71835.js",
     "static/css/2.2d7c32b4.chunk.css",
-    "static/js/2.8ed10299.chunk.js",
+    "static/js/2.443a0b4d.chunk.js",
     "static/css/main.d3143973.chunk.css",
-    "static/js/main.ca5d43da.chunk.js"
+    "static/js/main.bb8344bb.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3317dc45babbf0177f4566e132d6740f",
+    "revision": "b17643a98d6ddc0c9a601722d5f467cf",
     "url": "/navayuvabhaarath/index.html"
   },
   {
-    "revision": "25362bb624f824b0a9c5",
+    "revision": "5a64222bbf8f593c774f",
     "url": "/navayuvabhaarath/static/css/2.2d7c32b4.chunk.css"
   },
   {
-    "revision": "85e3a2450e2720296771",
+    "revision": "0d4a5f44d6debe9455c1",
     "url": "/navayuvabhaarath/static/css/main.d3143973.chunk.css"
   },
   {
-    "revision": "25362bb624f824b0a9c5",
-    "url": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js"
+    "revision": "5a64222bbf8f593c774f",
+    "url": "/navayuvabhaarath/static/js/2.443a0b4d.chunk.js"
   },
   {
     "revision": "27df78d2822439c2fc110c0a385025d0",
-    "url": "/navayuvabhaarath/static/js/2.8ed10299.chunk.js.LICENSE.txt"
+    "url": "/navayuvabhaarath/static/js/2.443a0b4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85e3a2450e2720296771",
-    "url": "/navayuvabhaarath/static/js/main.ca5d43da.chunk.js"
+    "revision": "0d4a5f44d6debe9455c1",
+    "url": "/navayuvabhaarath/static/js/main.bb8344bb.chunk.js"
   },
   {
     "revision": "46323deff93d05436159",
