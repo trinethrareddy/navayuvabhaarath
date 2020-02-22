@@ -8,7 +8,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import 'swiper/css/swiper.css'
-import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
+import { Route, HashRouter as Router, Switch, Link } from 'react-router-dom';
 import configureStore from './store';
 // Components 
 import HeaderComponent from './components/Header';

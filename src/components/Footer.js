@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink, BrowserRouter as Router, } from 'react-router-dom';
+import { NavLink, HashRouter as Router, } from 'react-router-dom';
 class FooterComponent extends Component {
   render() {
     return (
